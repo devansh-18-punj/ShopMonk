@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/monk.jpg" type="image/x-icon" />
+
+    <!-- Box icon from boxcons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+
+    <title>Shopmonk</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="home" class="header">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="navigation container">
+          <div class="logo">
+            <h1>SHOPMONK</h1>
+          </div>
+
+          <div class="menu">
+            <div class="top-nav">
+              <div class="logo">
+                <h1>SHOPMONK</h1>
+              </div>
+              <div class="close">
+                <i class="bx bx-x"></i>
+              </div>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link scroll-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./Cart/index.php" class="nav-link">Products</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link scroll-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link scroll-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="account.php" class="nav-link"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Account</button></a>
+              </li>
+              <li class="nav-item">
+                <a href="./Cart/mycart.php" class="nav-link icon"
+                  ><i class="bx bx-shopping-bag"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="./Cart/mycart.php" class="cart-icon">
+            <i class="bx bx-shopping-bag"></i>
+          </a>
+
+          <div class="hamburger">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <img src="./img/banner.jpg" alt="" class="hero-img" />
+
+      <div class="hero-content">
+        <h2><span class="discount">50% </span> SALE OFF</h2>
+        <h1>
+          <span>Summer Vibes</span>
+          <span>mode on</span>
+        </h1>
+        <a class="btn" href="#yoyo">shop now</a>
+      </div>
+    </header>
+    <hr />
+
+    <main>
+      <section class="advert section">
+        <div class="advert-center container">
+          <div class="advert-box">
+            <div class="dotted">
+              <div class="content">
+                <h2>Formal Collections</h2>
+                <!-- <h4>Worlds Best Brands</h4> -->
+              </div>
+            </div>
+            <img src="./img/man_formal.jpg" alt="" />
+          </div>
+
+          <div class="advert-box">
+            <div class="dotted">
+              <div class="content">
+                <h2>Accessories</h2>
+                <!-- <h4>Worlds Best Brands</h4> -->
+              </div>
+            </div>
+            <img src="./img/man_accessiories.jpg" alt="" />
+          </div>
+
+          <div class="advert-box">
+            <div class="dotted">
+              <div class="content">
+                <h2>Girl's Collection</h2>
+                <!-- <h4>Worlds Best Brands</h4> -->
+              </div>
+            </div>
+            <img src="./img/Girl_model.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <div class="Main_items" id="yoyo">
+        <div class="card">
+          <h1 class="my-2">Men's Informal</h1>
+
+          <div class="card_item">
+            <img src="./img/Men's_tshirts.jpg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">T-Shirts</p>
+              <p class="text my-1">Min 35% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/Man's_jeans.webp" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Jeans</p>
+              <p class="text my-1">Min 20% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/Men's_hoddies.jpeg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Hoddie's</p>
+              <p class="text my-1">Min 25% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/man's_shirts.jpg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Shirts</p>
+              <p class="text my-1">Min 15% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr />
+
+        <div class="card">
+          <h1 class="my-2">Men's Formal</h1>
+
+          <div class="card_item">
+            <img src="./img/Formal_shirts.webp" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Formal Shirts</p>
+              <p class="text my-1">Min 15% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/Formal_Blazers.jpg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Formal blazers</p>
+              <p class="text my-1">Min 25% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/man's_pants.png" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Pant's</p>
+              <p class="text my-1">Min 25% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/Formal_shoes.webp" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Formal Shoes</p>
+              <p class="text my-1">Min 15% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr />
+
+        <div class="card">
+          <h1 class="my-2">GIRL'S COLLECTION</h1>
+
+          <div class="card_item">
+            <img src="./img/Girl's_top.jpg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Tops</p>
+              <p class="text my-1">Min 40% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/Girl's_jeans.webp" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Jeans</p>
+              <p class="text my-1">Min 20% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/Girl's_one_piece.jpg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Dresses</p>
+              <p class="text my-1">Min 15% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/Girl's_Jumpsuits.jpg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Jumpsuits</p>
+              <p class="text my-1">Min 25% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr />
+
+        <div class="card">
+          <h1 class="my-2">Fashion Accessories</h1>
+
+          <div class="card_item">
+            <img src="./img/Men's_Watches.jpg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Exclusive Watches</p>
+              <p class="text my-1">Min 10% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/Goggle's.jpg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Goggle's</p>
+              <p class="text my-1">Min 35% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/Men's_belts.jpg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Fashionable Belt's</p>
+              <p class="text my-1">Min 25% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+          <div class="card_item">
+            <img src="./img/Cap's,tie's.jpg" alt="" />
+
+            <div class="lines">
+              <p class="text my-1">Cap's, Tie's and more</p>
+              <p class="text my-1">Min 30% off</p>
+              <button type="submit" class="button">
+                <a href="./Cart/index.php"> Shop Now </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="card-5">
+        <h1 class="my-4">Popular Brands</h1>
+
+        <div class="card_item_2">
+          <img src="./img/Levi's.jpg" alt="" />
+
+          <div class="lines_2">
+            <p class="text my-3">Levi"s</p>
+            <p class="text my-3">Min 10% off</p>
+          </div>
+        </div>
+
+        <div class="card_item_2">
+          <img src="./img/Tommy_hilfiger.png" alt="" />
+
+          <div class="lines_2">
+            <p class="text my-3">Tommy Hilfiger</p>
+            <p class="text my-3">Min 25% off</p>
+          </div>
+        </div>
+
+        <div class="card_item_2">
+          <img src="./img/Us_polo.jpg" alt="" />
+
+          <div class="lines_2">
+            <p class="text my-3">U.S. POLO</p>
+            <p class="text my-3">Min 15% off</p>
+          </div>
+        </div>
+
+        <div class="card_item_2">
+          <img src="./img/nike.jpg" alt="" />
+
+          <div class="lines_2">
+            <p class="text my-3">Nike</p>
+            <p class="text my-3">Min 5% off</p>
+          </div>
+        </div>
+
+        <div class="card_item_2">
+          <img src="./img/adidas.jpg" alt="" />
+
+          <div class="lines_2">
+            <p class="text my-3">Adidas</p>
+            <p class="text my-3">Min 25% off</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+
+    </main>
+
+    <section class="aboutt" id="about">
+      SHOPMONK is an online ecommerce website which focuses on
+      quality rather than quantity. Here, you will get clothes and accessiories
+      for men as well as women too from various top brands of the world. Here
+      you will get more discount, if you become a regular customer with free
+      delivery and best discouts on best brands. If you get any qurey on our
+      website, you can contact us anytime. We have also received some good comments from great personalities. Happy shopping :)
+
+      <div class="wow">
+        <img src="./img/Wow_pose.jpg" alt="">
+      </div>
+      
+    </section>
+    
+    <hr>
+
+    <section class="section">
+      <div class="testimonial-center container">
+        <div class="testimonial">
+          <span>&ldquo;</span>
+          <p>
+            This website is one of the most reliable and trusted website for shopping. I tested to shop from this website and now I am a regular customer.
+          </p>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <div class="img-cover">
+            <img src="./img/Bill_gates.jpg" alt="" />
+          </div>
+          <h4>Bill Gates</h4>
+        </div>
+        <div class="testimonial">
+          <span>&ldquo;</span>
+          <p>
+            It's one of the most trusted website and it delevires item within the given time, and I love it also because of quality of clothes. 
+          </p>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <div class="img-cover">
+            <img src="./img/Jeff_bezos.jpg" alt="" />
+          </div>
+          <h4>Jeff Bezos</h4>
+        </div>
+        <div class="testimonial">
+          <span>&ldquo;</span>
+          <p>
+            The website focuses quality rather than quantity thats the most satisfying thing. Also there are top brands with best discouts so I love it.
+          </p>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <div class="img-cover">
+            <img src="./img/Elon_Musk.jpg" alt="" />
+          </div>
+          <h4>Elon Musk</h4>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <section class="contact" id="contact">
+      <div class="contactt">
+        <h1>CONTACT US</h1>
+
+        <div class="linkss">
+          <a href="https://twitter.com/punj_devansh">
+            <i class="bx bxl-twitter"></i>
+          </a>
+
+          <a href="https://www.instagram.com/devanshpunj78/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+
+          <a href="https://www.facebook.com"><i class="bx bxl-facebook"></i></a>
+
+          <a href="https://www.linkedin.com/in/devansh-punj-73b3b7213/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="all-text">
+      <p>Copyright &copy; Shopmonk.com</p>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- js -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

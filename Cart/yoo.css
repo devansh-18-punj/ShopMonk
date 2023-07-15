@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-3 {
+    display: grid;
+    align-items: center;
+    margin: 10px 5px;
+    width: 24%;
+}
+
+.row {
+    background-color: bisque;
+}
+
+.card-img-top {
+    height: 365px;
+    width: 340px;
+}
+
+.container-fluid {
+    background-color: rgba(0, 255, 255, 0.308);
+}
